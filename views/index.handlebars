@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <div class="twelve columns box">
+        <h3>Cricket match score keeper</h3>
+        <hr>
+        <div class="row">
+
+          <div class="six columns">
+            <h5>Game score</h5>
+            {{!-- <form action="/action" method="POST">
+
+              <div class="">
+                {{#each totals}}
+                <ul>
+                  {{this}}
+                </ul>
+
+                {{/each}}
+              </div>
+
+            </form> --}}
+
+            <h5>Totals</h5>
+          <form action="action" method="POST"></form>
+  <table>
+              <tr>
+                <td>
+                  <a>total score</a>
+                </td>
+                <td><span class="totalscore">{{totals.score}}</span> </td>
+              </tr>
+              <tr>
+                <td>
+                  <a>total wickets</a>
+                </td>
+                <td><span class="total wickets">{{totals.wickets}}</span> </td>
+              </tr>
+
+            </table>
+          </div>
+          <div class="six columns">
+            <h5>Cricket Score Keeper</h5>
+            <form action="/scorekeeper" method="POST">
+              <label for="exampleEmailInput"> Overs</label>
+              <input class="u-full-width overs" type="number" name="overs" placeholder="eg -4-1-w"
+                value="{{CricketScoreKeeper.overs}}">
+
+              <button class="button-primary getScore" type="submit">Get Score</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

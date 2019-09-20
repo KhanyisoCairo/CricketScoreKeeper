@@ -4,21 +4,23 @@
   "description": "",
   "main": "CricketScoreKeeper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KhanyisoCairo/CricketScoreKeeper.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "khanyisoCairo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KhanyisoCairo/CricketScoreKeeper/issues"
   },
   "homepage": "https://github.com/KhanyisoCairo/CricketScoreKeeper#readme",
   "dependencies": {
+    "assert": "^2.0.0",
     "body-parse": "^0.1.0",
+    "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "mocha": "^6.2.0"
   }

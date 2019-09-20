@@ -1,0 +1,25 @@
+{
+  "name": "CricketScoreKeeper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CricketScoreKeeper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhanyisoCairo/CricketScoreKeeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhanyisoCairo/CricketScoreKeeper/issues"
+  },
+  "homepage": "https://github.com/KhanyisoCairo/CricketScoreKeeper#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express-handlebars": "^3.1.0",
+    "mocha": "^6.2.0"
+  }
+}
